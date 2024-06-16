@@ -15,7 +15,7 @@ int main() {
         // Candidate is eligible to vote
         printf("Congratulations! You are eligible for casting your vote.\n");
     } else {
-        // Candidate is not eligible to vote
+        // Candidate is not eligible to vote 
         printf("You are not eligible for casting your vote.\n");
     }
 
