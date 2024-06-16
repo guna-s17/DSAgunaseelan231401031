@@ -14,7 +14,7 @@ typedef struct  AdjList {
 // Structure to represent a graph
 typedef struct Graph {
     int V;
-    struct AdjList* array;
+    struct  AdjList* array;
 } Graph;
 
 // Function to create a new adjacency list node
