@@ -17,7 +17,7 @@ struct Node* createNode(int data) {
     return newNode;
 } 
 
-// Function for Inorder Traversal
+// Function for Inorder Traversal 
 void inorderTraversal(struct Node* node) {
     if (node == NULL) return;
     inorderTraversal(node->left);
