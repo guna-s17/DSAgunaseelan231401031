@@ -8,7 +8,7 @@ typedef struct AdjListNode {
 } AdjListNode;
 
 // Structure to represent an adjacency list
-typedef struct AdjList {
+typedef struct  AdjList {
     struct AdjListNode *head;
 } AdjList;
 // Structure to represent a graph
